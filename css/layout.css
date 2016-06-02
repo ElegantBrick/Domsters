@@ -79,21 +79,40 @@ article img {
 	background-image: url(../img/drummer.gif);
 }
 
-#slideshow{
+#slideshow {
 	width: 150px;
-	height:150px;
+	height: 150px;
 	position: relative;
 	overflow: hidden;
 }
-#preview{
+
+#preview {
 	position: absolute;
 	border-width: 0;
 	outline-width: 0;
 }
-#frame{
+
+#frame {
 	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 99;
 	border: 0px;
 }
+
+#imagegallery li {
+	display: inline;
+}
+td{
+	padding: 0.5em 3em;
+}
+dl{
+	overflow: hidden;
+}
+dt{
+	float: left;
+}
+dd{
+	float: left;
+}
+
